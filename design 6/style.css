@@ -1,0 +1,64 @@
+body{
+    color:white;
+    text-shadow: 3px 3px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    font-size: 100px;
+    display: flex;
+    background-color: lightpink;
+    min-height: 100vh;
+    border: 5px solid blueviolet;
+    width: 100%;
+    text-align:center;
+    align-items: flex-start;
+}
+
+div{
+    padding: 10px;
+    width: 33.333333%;
+}
+
+#box1{
+    background: rebeccapurple;
+}
+#box2{
+    background: hotpink;
+    align-self: stretch;
+}
+#box3{
+    background: powderblue;
+}
+#box4{
+    background: royalblue;
+}
+#box5{
+    background: blueviolet
+}
+#box6{
+    background: rebeccapurple;
+    align-self: center;
+}
+#box7{
+    background: hotpink;
+}
+#box8{
+    background: powderblue;
+    align-self: stretch;
+}
+#box9{
+    background: royalblue;
+    align-self: flex-end;
+}
+#box10{
+    background: blueviolet; 
+}
