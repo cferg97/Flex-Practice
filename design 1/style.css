@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background: lightblue;
+    text-align: center;
+    border: 10px solid transparent;
+}
+
+div {
+    
+    font-size: 2em;
+    background: violet;
+}
